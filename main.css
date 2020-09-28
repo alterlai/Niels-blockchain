@@ -1,0 +1,115 @@
+/* 
+Author: Jeroen van der Laan;
+Email: j.vdlaan@desoro.nl;
+Website: Blockchain Crypto Business - Niels Francken;
+Date: 28-9-2020;
+*/
+
+/* Helpers */
+:root {
+	--dark-grey: #333431;
+	--light-grey: #979797;
+}
+.bg-dg { 
+	background: var(--dark-grey); 
+	color: white;
+}
+.bg-lg { background: var(--light-grey); }
+.absolute-center { 
+	position: absolute;
+    top: 43%;  /* position the top  edge of the element at the middle of the parent */
+    left: 50%; /* position the left edge of the element at the middle of the parent */
+    opacity: .7;
+    transform: translate(-50%, -50%); /* This is a shorthand of
+                                         translateX(-50%) and translateY(-50%) */
+}
+
+
+/* Header */
+.header {
+	background: grey;
+}
+.header .header-container {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.header .company-info {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.header .company-info #company-logo {
+	width: 200px;
+	margin-right: 20px;
+}
+.header .company-info .company-name {
+	float: right;
+}
+.header > .header-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+/* Nav */
+.navigatie {
+	background: #f69222;
+}
+
+/* Content */
+.section {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#particles-js {
+	height: 400px;
+	width: 100%;
+	background: rgb(36,104,119);
+	background: linear-gradient(0deg, rgba(36,104,119,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+.section-header {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.card-container {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.service-card {
+	width: 300px;
+	background: #0096fb;
+	padding: 10px;
+	border: 0px;
+	border-radius: 5px;
+	flex-basis: 28%;
+	margin-bottom: 50px;
+}
+
+.service-card-header {
+	color: black;
+}
+
+.service-card-body {
+	margin-bottom: 20px;
+}
+
+.service-card-footer a {
+	color:  white;
+}
+
+card {
+	background: var(--dark-grey);
+	color: white;
+	width: 250px;
+	padding: 10px;
+	border-radius: 5px;
+}

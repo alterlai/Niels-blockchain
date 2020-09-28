@@ -1,0 +1,244 @@
+/* RESET */
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* END-RESET */
+
+/* ROOT */
+
+:root {
+  --primaryOrange: #f69222;
+  --primaryBlue: #0096fb;
+  --mainWhite: #f7f7f7;
+  --darkBlack: #22181c;
+  --lightBlack: #333431;
+  --darkGrey: #979797;
+  --lightGrey: #c4c4c4;
+  --mainTransition: all 0.3s linear;
+  --mainSpacing: 0.25rem;
+  --lightShadow: 2px 5px 3px 0 rgba(0, 0, 0, 0.25);
+  --darkShadow: 4px 10px 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+/* GLOBAL STYLES */
+
+img:not(.logo) {
+  width: 100%;
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Audiowide", cursive;
+  margin-bottom: 1.25rem;
+  letter-spacing: var(--mainSpacing);
+}
+
+h1 {
+  font-size: 2.4rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+p {
+  font-family: lato;
+  margin-bottom: 1.25rem;
+  line-height: 2;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Audiowide", normal;
+  cursor: pointer;
+}
+
+/* BUTTONS */
+
+.btn-primary {
+  font-family: "Audiowide", normal;
+  cursor: pointer;
+}
+
+/* SCROLL-BAR */
+
+/* FONT FAMILY */
+/* font-family: 'Audiowide', cursive; */
+/* font-family: 'Lato', sans-serif; */
+/* font-family: 'Source Code Pro', monospace; */
+
+/* Audiowide */
+/* Regular 400 */
+
+/* Source Code Pro */
+/* Light 300 */
+/* Regular 400 */
+/* Medium 500 */
+/* Bold 700 */
+
+/* Lato */
+/* Light 300 */
+/* Regular 400 */
+/* Bold 700 */
+
+/* BODY */
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: "Source Code Pro", monospace;
+  line-height: 1.4;
+  font-size: 1rem;
+}
+
+/* TOPBAR */
+
+.topbar {
+  background-color: var(--lightBlack);
+  height: 10vh;
+  padding: 0;
+}
+
+#BCBlogo1 {
+  width: 10vw;
+  float: left;
+  margin-left: 5vw;
+  padding: 0;
+}
+
+#BCBlogo2 {
+  width: 10vw;
+  float: right;
+  margin-right: 5vw;
+  padding: 0;
+}
+
+#BlockchainCryptoBusiness {
+  font-size: 36px;
+  text-align: center;
+  margin-top: 2vh;
+  color: var(--mainWhite);
+}
+
+/* .top-Bar-Buttons {
+  padding: 0;
+  margin-right: 5vw;
+} */
+
+/* #Registreren {
+  margin-right: 1vw;
+} */
+
+/* #Inloggen {} */
+
+#cryptoBanner {
+  height: 2.5vh;
+}
+
+/* NAVBAR */
+
+.navbar-brand {
+  margin-left: 5vw;
+}
+
+.dropdown-item:hover {
+  background-color: var(--primaryOrange);
+}
+
+.nav-link {
+  cursor: pointer;
+}
+
+/* INTRO | LEER NU ALLES OVER BLOCKCHAIN */
+
+#container-Home {
+  padding: 0px;
+}
+
+#leer-Blockchain {
+  text-align: center;
+  margin-top: 2.5vh;
+}
+
+.intro-Text-1 {
+  text-align: center;
+  margin-top: 2.5vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.learn_everything {
+  background-color: var(--lightBlack);
+  color: var(--mainWhite);
+}
+
+#container-Pic-1 {
+  margin-right: 5vw;
+}
+
+#tv-Small {
+  height: 40vh;
+  margin: 0px;
+  padding: 0;
+}
+
+/* INTRODUCTIE .... */
+
+#start-Training {
+  text-align: center;
+  margin-top: 2.5vh;
+}
+
+#container-Pic-2 {
+  margin-left: 5vw;
+}
+
+.start_free_training {
+  width: 100vw;
+  background-color: var(--darkGrey);
+  color: var(--mainWhite);
+}
+
+#intro-Text-2 {
+  text-align: center;
+  margin-top: 2.5vh;
+  margin-right: 5vw;
+  margin-left: 5vw;
+}
+
+#laptop-Small {
+  height: 40vh;
+  margin: 0px;
+  padding: 0;
+}
+
+/* CRYPTO EXCHANGE / CRYPTO CURRENCY */
+
+iframe {
+  width: 100vw;
+  height: 500px;
+}
+
+.crypto_exchange {
+  height: 500px;
+}
