@@ -9,12 +9,19 @@ Date: 28-9-2020;
 :root {
 	--dark-grey: #333431;
 	--light-grey: #979797;
+	--white-grey:  #c4c4c4;
+	--primaryBlue: #0096fb;
 }
 .bg-dg { 
 	background: var(--dark-grey); 
 	color: white;
 }
 .bg-lg { background: var(--light-grey); }
+.bg-wg { background: var(--white-grey); }
+.bg-blue {background: var(--primaryBlue);}
+.bg-orange {background: #f69222;}
+.color-orange { color:  #f69222; }
+
 .absolute-center { 
 	position: absolute;
     top: 43%;  /* position the top  edge of the element at the middle of the parent */
@@ -22,6 +29,14 @@ Date: 28-9-2020;
     opacity: .7;
     transform: translate(-50%, -50%); /* This is a shorthand of
                                          translateX(-50%) and translateY(-50%) */
+}
+
+.arrow-up {
+	width: 0; 
+	height: 0; 
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 15px solid #fff;
 }
 
 
@@ -112,4 +127,26 @@ card {
 	width: 250px;
 	padding: 10px;
 	border-radius: 5px;
+}
+
+.card-transparant {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding-left: 3rem;
+	padding-right: 3rem;
+}
+.card-transparant:first-child{
+	padding-left: 0;
+}
+.card-transparant:last-child {
+	padding-right: 0;
+}
+.card-transparant .card .card-header {
+	padding: .75rem 1rem;
+	border-radius: 5px;
+}
+.card-transparant .card .card-body {
+	padding: 1rem;
 }
